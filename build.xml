@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <project name="TravisExercise" default="compile">
 	<property name="builddir" location="bin" />
+	<property name="testdir" value="test" />
 
 	<path id="TravisExercise.classpath">
 		<pathelement location="${builddir}"/>
